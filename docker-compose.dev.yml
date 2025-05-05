@@ -17,7 +17,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      DATABASE_URL: postgresql://dev:dev@localhost:5432/tech_test?schema=public
+      DATABASE_URL: postgresql://dev:dev@postgres:5432/tech_test?schema=public
       PORT: "3000"
       JWT_SECRET: acJDwt&51+frfcsvJ
       JWT_EXPIRATION: "1d"
